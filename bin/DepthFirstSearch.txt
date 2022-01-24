@@ -1,0 +1,9 @@
+Get the root node and set to the first color in the domain of colors
+
+for each color in the domain, make a recursive call to the depth first search method and pass in current
+
+    if current.next is null (AKA at the leaf node in the tree)
+        check for conflicts
+            if there is a conflict then return
+            else, create an arraylist of the solution and return
+
